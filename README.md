@@ -57,21 +57,21 @@ far things look like they are working as they are supposed to.
 
 Brian
 
-\============================================================================================
-\==={ To Install NuBuilder4 in an LXD container }============================================
-\============================================================================================
+\============================================================================================  
+\==={ To Install NuBuilder4 in an LXD container }============================================  
+\============================================================================================  
 
 First in an Ubuntu Server/Desktop/VM .. create an LXD ubuntu container named "nubuilder"
 
-    lxc launch ubuntu:b nubuilder
+    lxc launch ubuntu:b nubuilder  
 
 Then access the "nubuilder" container which logs you in as root and leaves you at a Bash prompt:
 
-    lxc exec nubuilder bash
+    lxc exec nubuilder bash  
 
 Install required software for NuBuilder4:
 
-     # apt install mysql-server apache2 php php-mysql unzip libapache2-mod-php php-mbstring -y
+     # apt install mysql-server apache2 php php-mysql unzip libapache2-mod-php php-mbstring -y  
 
 From this point on everything is basically the same as the above instructions for installing NuBuilder4 in a
 Server/Desktop/VM...
@@ -81,19 +81,19 @@ You can do this by following Step 3 — (Optional) Adjusting User Authentication
 
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
 
-    # cd /var/www/html
+    # cd /var/www/html  
 
-    # wget https://github.com/nuSoftware/nuBuilder4/archive/master.zip
+    # wget https://github.com/nuSoftware/nuBuilder4/archive/master.zip  
 
-    # unzip ./master.zip
+    # unzip ./master.zip  
 
 Create an empty Database
 
-    # mv ./nuBuilder4-master/* .
+    # mv ./nuBuilder4-master/* .  
 
-    # rm ./index.html
+    # rm ./index.html  
 
-    # myql -u root -p
+    # myql -u root -p  
 
     mysql> CREATE DATABASE nubuilder4;
     Query OK, 1 row affected (0.00 sec)
@@ -103,16 +103,16 @@ Create an empty Database
 
 Copy the nubuilder4.sql schema into that empty database
 
-    # mysql -u root -p nubuilder4 < ./nubuilder4.sql
+    # mysql -u root -p nubuilder4 < ./nubuilder4.sql  
 
 Add the mysql root password to the nuconfig.conf file
 
-    # nano nuconfig.php
+    # nano nuconfig.php  
 
 Make sure to open Ports 80 & maybe 8080 for html access to the container
 
-    # ufw allow 80
-    # ufw allow 8080
+    # ufw allow 80  
+    # ufw allow 8080  
 
 To make sure that the nubuilder4 setup tab is present when logging in as "globeadmin"
 you need to edit my.cnf and add some config statements
@@ -135,15 +135,15 @@ Then append/add...
     [mysqldump]
     quick
 
-\==={ Reboot your LXD Container then Access/Use NuBuilder4 }==============================================================
+\==={ Reboot your LXD Container then Access/Use NuBuilder4 }==============================================================  
 
 Whether you installed NuBuilder4 in LXD or on a VM or a Desktop or a Server the setup should be complete so
 now reboot the LXD container (or your VM, Server etc to verify everything comes back up and you can now access NuBuilder4
 
-shutdown -r now
+shutdown -r now  
 
-then...
+then...  
 point your web browser to: http://<IP_of_Container>
 
-and login as: globeadmin 
-password: nu
+and login as: globeadmin  
+password: nu  
