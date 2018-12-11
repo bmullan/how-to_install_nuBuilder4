@@ -59,7 +59,7 @@ far things look like they are working as they are supposed to.
 Brian
 
 \============================================================================================  
-\==={ **To Install NuBuilder4 in an LXD container** }======================================================  
+\==={ **To Install NuBuilder4 in an LXD container** }====================================================  
 \============================================================================================  
 
 First in an Ubuntu Server/Desktop/VM .. create an LXD ubuntu container named "nubuilder"
