@@ -57,9 +57,9 @@ far things look like they are working as they are supposed to.
 
 Brian
 
-============================================================================================
-==={ To Install NuBuilder4 in an LXD container }============================================
-============================================================================================
+\============================================================================================
+\==={ To Install NuBuilder4 in an LXD container }============================================
+\============================================================================================
 
 First in an Ubuntu Server/Desktop/VM .. create an LXD ubuntu container named "nubuilder"
 
@@ -135,7 +135,7 @@ Then append/add...
     [mysqldump]
     quick
 
-==={ Reboot your LXD Container then Access/Use NuBuilder4 }==============================================================
+\==={ Reboot your LXD Container then Access/Use NuBuilder4 }==============================================================
 
 Whether you installed NuBuilder4 in LXD or on a VM or a Desktop or a Server the setup should be complete so
 now reboot the LXD container (or your VM, Server etc to verify everything comes back up and you can now access NuBuilder4
