@@ -3,11 +3,12 @@
 This is a how-to install NuBuilder4 in an LXD Container on an Ubuntu 18.04 LXD "host" (whether that
 host is a Server/Desktop/VM).
 
-See:  https://www.nubuilder.com/  and the User Guide:  https://www.nubuilder.com/storage/pdf/nuBuilderForte_UserGuide.pdf
+Reference the [nuBuilder website](https://www.nubuilder.com/) and the [nuBuilder4 User Guide](https://www.nubuilder.com/storage/pdf/nuBuilderForte_UserGuide.pdf)
 
-
-nuBuilder Forte is the 4th version of nuBuilder.
-
+There are also several [Youtube Video Demonstrations of nuBuilder4](https://www.youtube.com/results?search_query=nubuilder4)
+  
+> *nuBuilder Forte is the 4th version of nuBuilder.*  
+>   
 > A browser-based tool created by nuSoftware for developing web-based database applications.  
 >  
 > nuBuilder uses either MySQL or Maria DB databases and gives its users the ability to do database operations like...  
