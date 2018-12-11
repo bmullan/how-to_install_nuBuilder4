@@ -79,6 +79,8 @@ following *Step 3 — (Optional) Adjusting User Authentication and Privileges* i
 
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
 
+After making sure MySQL root is using passwords not auth-socket...  
+
     # cd /var/www/html  
 
     # wget https://github.com/nuSoftware/nuBuilder4/archive/master.zip  
@@ -106,6 +108,8 @@ Copy the nubuilder4.sql schema into that empty database
 Add the mysql root password to the nuconfig.conf file
 
     # nano nuconfig.php  
+
+Change the "root" password in nuconfig.php to match what you entered when you created a password for ROOT in MySQL above.  
 
 Make sure to open Ports 80 & maybe 8080 for html access to the container
 
