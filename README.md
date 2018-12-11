@@ -3,7 +3,8 @@
 This is a how-to install NuBuilder4 in an LXD Container on an Ubuntu 18.04 LXD "host" (whether that
 host is a Server/Desktop/VM).
 
-See:  https://www.nubuilder.com/
+See:  https://www.nubuilder.com/  and the User Guide:  https://www.nubuilder.com/storage/pdf/nuBuilderForte_UserGuide.pdf
+
 
 nuBuilder Forte is the 4th version of nuBuilder.
 
