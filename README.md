@@ -74,7 +74,7 @@ Install required software for NuBuilder4:
 
      # apt install mysql-server apache2 php php-mysql unzip libapache2-mod-php php-mbstring -y  
 
-Make sure the mysql "root" password is set to use "passwords" and not "auth-socket".  You can do this by 
+Make sure the mysql "root" password is set to use "passwords" and not "auth-socket".  You can do this by  
 following *Step 3 — (Optional) Adjusting User Authentication and Privileges* in:
 
 https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04
