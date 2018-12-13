@@ -37,7 +37,7 @@ There are also several [Youtube Video Demonstrations of nuBuilder4](https://www.
 
 The benefit of an LXD container is that you can easily copy/clone the "nubuilder" container or migrate the
 container to another LXD "host" locally, remotely or on a Cloud server.   If you use LXD with ZFS/BTRFS
-(LXD will create & use a ZFS/BTRFS loop device if your file system isn't already ZFS/BTRS) you can
+(LXD will create & use a ZFS/BTRFS loop device if your file system isn't already ZFS/BTRFS) you can
 also utilize snapshot/restore etc for your NuBuilder4 LXD installation.  
 
 NOTE:  LXD also supports various file systems including CEPH, BTRFS, ZFS, LVM, and plain
